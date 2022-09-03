@@ -1,42 +1,8 @@
-# Nuxt 3 Minimal Starter
+# Fullstack Project
 
-Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
+- Nuxt 3
+- Tailwind
+- Prisma
 
-## Setup
-
-Make sure to install the dependencies:
-
-```bash
-# yarn
-yarn install
-
-# npm
-npm install
-
-# pnpm
-pnpm install --shamefully-hoist
-```
-
-## Development Server
-
-Start the development server on http://localhost:3000
-
-```bash
-npm run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-npm run build
-```
-
-Locally preview production build:
-
-```bash
-npm run preview
-```
-
-Checkout the [deployment documentation](https://v3.nuxtjs.org/guide/deploy/presets) for more information.
+## inspiration
+https://www.youtube.com/watch?v=_cM4j9_LfQk&t=381s&ab_channel=insidewebdev
