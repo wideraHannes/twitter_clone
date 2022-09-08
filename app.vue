@@ -11,8 +11,8 @@
           </div>
         </div>
         <!-- Main content -->
-        <main class="col-span-12 bg-red-500 md:col-span-7 xl:col-span-6">
-          <h1>Main</h1>
+        <main class="col-span-12 md:col-span-7 xl:col-span-6">
+          <router-view />
         </main>
         <!-- Right Sidebar -->
         <div class="hidden md:block col-span-1 md:col-span-4 xl:col-span-3">
