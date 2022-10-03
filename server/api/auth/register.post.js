@@ -1,6 +1,7 @@
 // post /api/auth/register
 import {sendError} from "h3"
 import { createUser } from "~~/server/db/users"
+import { userTransformer } from "~~/server/transformers/user"
 
 export default defineEventHandler(async (event) => {
     const body = await useBody (event)
@@ -28,6 +29,6 @@ export default defineEventHandler(async (event) => {
     }
     const user = await createUser(userData)
     return {
-        user
+        body: userTransformer(user)
     }
 })
